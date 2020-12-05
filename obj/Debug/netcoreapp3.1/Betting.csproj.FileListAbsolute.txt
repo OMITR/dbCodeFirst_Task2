@@ -54,3 +54,4 @@ C:\Users\goldl\source\repos\Betting\bin\Debug\netcoreapp3.1\runtimes\win\lib\net
 C:\Users\goldl\source\repos\Betting\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.Design.dll
 C:\Users\goldl\source\repos\Betting\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
 C:\Users\goldl\source\repos\Betting\obj\Debug\netcoreapp3.1\Betting.csproj.CoreCompileInputs.cache
+C:\Users\goldl\source\repos\Betting\obj\Debug\netcoreapp3.1\Betting.csprojAssemblyReference.cache

@@ -7,8 +7,8 @@ namespace Betting.Data.Models
     {
         public Color()
         {
-            this.PrimaryKitColor = new HashSet<Team>();
-            this.SecondaryKitColor = new HashSet<Team>();
+            this.PrimaryKitTeam = new HashSet<Team>();
+            this.SecondaryKitTeam = new HashSet<Team>();
         }
 
         [Key]
@@ -17,7 +17,7 @@ namespace Betting.Data.Models
         [MaxLength(64)]
         public string Name { get; set; }
 
-        public virtual ICollection<Team> PrimaryKitColor { get; set; }
-        public virtual ICollection<Team> SecondaryKitColor { get; set; }
+        public virtual ICollection<Team> PrimaryKitTeam { get; set; }
+        public virtual ICollection<Team> SecondaryKitTeam { get; set; }
     }
 }

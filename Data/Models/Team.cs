@@ -35,8 +35,8 @@ namespace Betting.Data.Models
         [ForeignKey("Towns")]
         public int TownId { get; set; }
         public virtual Town Town { get; set; }
-        public virtual Color PrimaryTeamColor { get; set; }
-        public virtual Color SecondaryTeamColor { get; set; }
+        public virtual Color PrimaryKitColor { get; set; }
+        public virtual Color SecondaryKitColor { get; set; }
         public virtual ICollection<Game> HomeGame { get; set; }
         public virtual ICollection<Game> AwayGame { get; set; }
         public virtual ICollection<Player> PlayerInfo { get; set; }

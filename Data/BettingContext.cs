@@ -46,10 +46,10 @@ namespace Betting.Data
             });
 
             modelBuilder.Entity<Color>(e =>
-                 e.HasMany<Team>(color => color.PrimaryKitColor).WithOne(team => team.PrimaryTeamColor).OnDelete(DeleteBehavior.NoAction));
+                 e.HasMany<Team>(color => color.PrimaryKitTeam).WithOne(team => team.PrimaryKitColor).OnDelete(DeleteBehavior.NoAction));
 
             modelBuilder.Entity<Color>(e =>
-                e.HasMany<Team>(color => color.SecondaryKitColor).WithOne(team => team.SecondaryTeamColor).OnDelete(DeleteBehavior.NoAction));
+                e.HasMany<Team>(color => color.SecondaryKitTeam).WithOne(team => team.SecondaryKitColor).OnDelete(DeleteBehavior.NoAction));
 
             modelBuilder.Entity<Team>(e =>
                 e.HasMany(t => t.HomeGame).WithOne(g => g.HomeTeam).OnDelete(DeleteBehavior.NoAction));
